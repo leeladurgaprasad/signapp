@@ -4,12 +4,12 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng build && node ./bin/www",
+    "start": "start ng build --watch && start node ./bin/www",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-  },  
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.0.0",
@@ -21,20 +21,20 @@
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
-    "core-js": "^2.4.1",
-    "rxjs": "^5.5.2",
-    "zone.js": "^0.8.14",
+    "asserts": "~4.0.2",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
+    "core-js": "^2.4.1",
     "debug": "~2.6.9",
     "express": "~4.15.5",
     "hbs": "~4.0.1",
-    "morgan": "~1.9.0",
-    "semantic-ui": "^2.2.13",
-    "serve-favicon": "~2.4.5",
     "mongodb": "~3.0.1 ",
-    "asserts": "~4.0.2",
-    "mongoose": "5.0.0-rc2"
+    "mongoose": "5.0.0-rc2",
+    "morgan": "~1.9.0",
+    "rxjs": "^5.5.2",
+    "semantic-ui": "^2.2.14",
+    "serve-favicon": "~2.4.5",
+    "zone.js": "^0.8.14"
   },
   "devDependencies": {
     "@angular-devkit/core": "0.0.28",

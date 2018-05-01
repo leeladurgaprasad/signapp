@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  sidebar = false;
+
+  toogle() {
+    this.sidebar= !this.sidebar;
+  }
 }

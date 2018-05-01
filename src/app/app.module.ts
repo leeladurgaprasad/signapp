@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { FirstcompComponent } from './firstcomp/firstcomp.component';
+import { ImagesliderComponent } from './imageslider/imageslider.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FirstcompComponent,
+    ImagesliderComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule
